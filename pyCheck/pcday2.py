@@ -1,0 +1,11 @@
+#Personal Finance Calculator
+print("What is your monthly income?")
+income = float(input("Enter your monthly income: "))
+print("How much do you spend on food?")
+food_spend = float(input("Enter your spend on food: "))
+print("How much do you spend on transport?")
+transport_spend = float(input("Enter your spend on transport: "))
+print("How much do you spend on entertainment?")
+entertainment_spend = float(input("Enter your spend on entertainment: "))
+print("How much do you save?")
+saving_amount = float(input("Enter your saving amount for monthly: "))
