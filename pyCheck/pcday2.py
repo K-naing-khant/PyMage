@@ -9,3 +9,6 @@ print("How much do you spend on entertainment?")
 entertainment_spend = float(input("Enter your spend on entertainment: "))
 print("How much do you save?")
 saving_amount = float(input("Enter your saving amount for monthly: "))
+
+expense = food_spend + transport_spend + entertainment_spend
+remaining = income - expense
