@@ -10,3 +10,7 @@ print(goblin.health)
 hero.health = 50
 print(hero.health)
 print(goblin.health)
+
+def attack(self, target):
+  target.health -= self.attack_power
+  print(f"{self.name} attacks {target.name}")
