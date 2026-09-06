@@ -18,9 +18,8 @@ class Archer(Character):
   def attack(self):
     print(f"{self.name} fires an arrow! ")
 
-cha1 = Character("Nathan", 24)
-print(cha1.name)
-print("Nathan".attack())
+# cha1 = Character("Nathan", 24)
+# print(cha1.name)
 
 party = [Mage("Merlin", 80), Warrior("Conan", 120), Archer("Legolas", 90)]
 
