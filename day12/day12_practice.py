@@ -23,7 +23,7 @@ class SavingAccount(BankAccount):
     self.balance += interest
     print(f"Interest applied: ${interest:.2f}. New balance: ${self.balance:.2f}")
 savings = SavingAccount("Alex", 1000)
-print(savings.apply_interest())
+savings.apply_interest()
 
 ##withdraw()
 class CheckingAccount(BankAccount):
@@ -39,7 +39,7 @@ class CheckingAccount(BankAccount):
       self.balance -= total
       print(f"Withdrew ${amount} + ${self.fee} fee. New balance: ${self.balance:.2f}")
 checking = CheckingAccount("Alex", 100)
-print(checking.withdraw(50))
+checking.withdraw(50)
 
 ##polymorphism check: loop over mixed accounts types
 accounts = [SavingAccount("Sam", 500), CheckingAccount("Jamie", 200)]
