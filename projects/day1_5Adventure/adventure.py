@@ -41,7 +41,7 @@ for step in range(1, steps + 1):
         neat_clue = " ".join(words).replace("old", "ancient")
         print(f"The note says: {neat_clue}.")
         found_clue = True
-        # continue
+        continue
 
     if step == 4 and not found_clue:
         print("The path is quiet, but you find no clue.")
